@@ -1,0 +1,45 @@
+﻿<!DOCTYPE html>
+<html lang="ja">
+<head>
+	<meta charset="shift-jis">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<!-- 色変更に使うライブラリで用意されているCSSを導入 https://github.com/bebraw/colorjoe -->
+	<link rel="stylesheet" href="css/colorjoe.css">
+	<title>お絵かきサイト</title>
+	<script src="js/colorjoe.min.js"></script>
+	<script src="js/main.js"></script>
+</head>
+<body>
+	<!-- body▼ -->
+	<div id="body">
+		<!-- header▼ -->
+		<div id="header"></div>
+		<!-- header▲ -->
+		<!-- main▼ -->
+		<div id="main">
+			<div class="box1">
+				<h2>お絵かきBOX</h2>
+				<canvas
+					id="draw-area"
+					width="510px"
+					height="400px"
+					style="border: 1px solid #000000;"></canvas>
+				<span id="color-palette"></span>
+				<div>
+					<button id="load-button">お戯れ</button>
+					<button id="clear-button">全消し</button>
+					<button id="eraser-button">消しゴム</button>
+				</div>
+			</div>
+		</div>
+		<!-- main▲ -->
+		<div id="footer">
+			<br><br>
+			Copyright (C) <a href="index.html">お絵かきサイト</a> All Rights Reserved.
+		</div>
+		<!-- footer▲ -->
+	</div>
+</body>
+</html>
